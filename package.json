@@ -17,7 +17,7 @@
     "framework"
   ],
   "author": "Shehzaan Ansari",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^12.11.0",
     "http-server": "^14.1.1",
