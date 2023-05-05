@@ -1,0 +1,26 @@
+{
+  "name": "automation_task",
+  "version": "1.0.0",
+  "description": "Automation task using Cypress",
+  "main": "task.html",
+  "scripts": {
+    "test": "cypress run --headless",
+    "cypress:open": "cypress open",
+    "start": "http-server -p 3000",
+    "format": "prettier --write cypress/**/*cy.js"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "Shehzaan Ansari",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "http-server": "^14.1.1",
+    "prettier": "^2.8.8"
+  }
+}
